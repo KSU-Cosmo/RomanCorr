@@ -20,4 +20,5 @@ Some wrapper functions to compute clustering statistics for Roman galaxy survey 
 
 ### Install corrfunc dependencies seperately
 `pip install cython setuptools`
+
 `pip install corrfunc`
