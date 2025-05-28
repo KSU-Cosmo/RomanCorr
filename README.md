@@ -31,6 +31,8 @@ Note: corrfunc requires a local c compiler!
 
 Below is how to compute the 2pcf. You may edit the configuration file and make as many as you'd like. When running this routine, simply specify the path to your config file from the command line.
 
+You will want to set the desired paramters such as filenames and binning in the configuration file. Please note, in the config. file there are two parameters called `data_resample_factor` and `rand_resample_factor`. These allow you to randomly resample a catalog to a smaller size for fast computation and diagnostics. Please note that in the sample configuration file these are both set to 1%. You may wish to change this!
+
 Note: There are no data catalogs provided in this repo. They are simply too large. These routines will work for any catalog, provided it is stored as an astropy .fits file. It MUST have the following column names `ra` (right ascension), `dec` (declination), `z` (redshift), and `wts` (weights). If you would like to run without weights, simply populate the `wts` column with all ones.
 
 `python compute_2pcf.py --config ./configs/sample_config.txt`
