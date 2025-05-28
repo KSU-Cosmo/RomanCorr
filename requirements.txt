@@ -1,0 +1,14 @@
+# Base requirements
+numpy<2.0
+astropy
+matplotlib
+scipy
+numba
+pandas
+pypower
+pyfftw         
+pyyaml
+mpi4py         
+setuptools
+notebook
+ipykernel

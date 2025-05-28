@@ -1,0 +1,23 @@
+{
+  "data_raw_file": "./data/roman_mock0_data_zobs.fits",
+  "rand_raw_file": "./data/roman_mock0_randoms_zobs.fits",
+  "zlims": [0.8, 1],
+  "data_resample_factor": 0.01,
+  "rand_resample_factor": 0.01,
+  "H0": 67.66,
+  "Om0": 0.3158,
+  "nthreads": 10,
+  "rbins": [4, 200, 50],
+  "mu_max": 1.0,
+  "Nmu_bins": 20,
+  "corrfunc_kwargs": {
+    "xbin_refine_factor": 5,
+    "ybin_refine_factor": 5,
+    "zbin_refine_factor": 5,
+    "weight_type": "pair_product",
+    "verbose": true
+  },
+ "ell": [0,2,4],
+ "plot_filename": "test_corr_plot.pdf",
+ "corr_filename": "test_corr.fits"
+}
