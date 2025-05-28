@@ -4,4 +4,4 @@ Some wrapper functions to compute clustering statistics for Roman galaxy survey 
 # Installation Instructions
 
 ## Navigate to desired directory
-'cd /path/to/your/directory'
+`cd /path/to/your/directory`
